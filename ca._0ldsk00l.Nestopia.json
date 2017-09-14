@@ -35,6 +35,9 @@
             "name": "nestopia",
             "cleanup": [ "/share/doc" ],
             "buildsystem": "cmake-ninja",
+            "post-install": [
+                "install -Dm644 ca._0ldsk00l.Nestopia.appdata.xml /app/share/appdata/ca._0ldsk00l.Nestopia.appdata.xml"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -44,6 +47,10 @@
                 {
                     "type": "patch",
                     "path": "respect-xdg.patch"
+                },
+                {
+                    "type": "file",
+                    "path": "ca._0ldsk00l.Nestopia.appdata.xml"
                 }
             ]
         }

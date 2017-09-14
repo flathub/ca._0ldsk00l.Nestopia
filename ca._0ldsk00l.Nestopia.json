@@ -1,0 +1,51 @@
+{
+    "app-id": "ca._0ldsk00l.Nestopia",
+    "runtime": "org.freedesktop.Platform",
+    "sdk": "org.freedesktop.Sdk",
+    "runtime-version": "1.6",
+    "command": "nestopia",
+    "rename-desktop-file": "nestopia.desktop",
+    "rename-icon": "nestopia",
+    "finish-args": [
+        "--device=dri",
+        "--socket=x11",
+        "--socket=wayland",
+        "--socket=pulseaudio",
+        "--filesystem=home:ro"
+    ],
+    "modules": [
+        {
+            "name": "libao",
+            "cleanup": [
+                "/include",
+                "*.la",
+                "/lib/pkgconfig",
+                "/lib/ckport",
+                "/share"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "http://downloads.xiph.org/releases/ao/libao-1.2.0.tar.gz",
+                    "sha256": "03ad231ad1f9d64b52474392d63c31197b0bc7bd416e58b1c10a329a5ed89caf"
+                }
+            ]
+        },
+        {
+            "name": "nestopia",
+            "cleanup": [ "/share/doc" ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/rdanbrook/nestopia/archive/1.48.tar.gz",
+                    "sha256": "fb6629b5d0da8548bbf5beb387209d1958358b303e5a2100a94491497e019ea0"
+                },
+                {
+                    "type": "patch",
+                    "path": "respect-xdg.patch"
+                }
+            ]
+        }
+    ]
+}

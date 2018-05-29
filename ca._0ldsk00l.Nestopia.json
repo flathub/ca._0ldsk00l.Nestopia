@@ -6,11 +6,17 @@
     "command": "nestopia",
     "rename-desktop-file": "nestopia.desktop",
     "rename-icon": "nestopia",
+    "copy-icon": true,
     "finish-args": [
         "--device=dri",
         "--socket=x11",
+        "--share=ipc",
         "--socket=wayland",
         "--socket=pulseaudio",
+        "--talk-name=ca.desrt.dconf",
+        "--filesystem=xdg-run/dconf",
+        "--filesystem=~/.config/dconf:ro",
+        "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
         "--filesystem=home:ro"
     ],
     "modules": [

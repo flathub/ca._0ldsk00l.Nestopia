@@ -40,23 +40,31 @@
         {
             "name": "nestopia",
             "cleanup": [ "/share/doc" ],
-            "buildsystem": "cmake-ninja",
+            "config-opts": [
+              "--enable-gui",
+              "--with-ao"
+            ],
             "post-install": [
                 "install -Dm644 ca._0ldsk00l.Nestopia.appdata.xml /app/share/appdata/ca._0ldsk00l.Nestopia.appdata.xml"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/rdanbrook/nestopia/archive/1.48.tar.gz",
-                    "sha256": "fb6629b5d0da8548bbf5beb387209d1958358b303e5a2100a94491497e019ea0"
+                    "url": "https://github.com/0ldsk00l/nestopia/archive/1.49.tar.gz",
+                    "sha256": "c5a8b5e74a904c4e624152f8dfa081bdd7991796a24439811fc518564aa04b55"
                 },
                 {
-                    "type": "patch",
-                    "path": "respect-xdg.patch"
+                  "type": "patch",
+                  "path": "respect-xdg.patch"
                 },
                 {
                     "type": "file",
                     "path": "ca._0ldsk00l.Nestopia.appdata.xml"
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "autogen.sh",
+                    "commands": [ "autoreconf -vif" ]
                 }
             ]
         }

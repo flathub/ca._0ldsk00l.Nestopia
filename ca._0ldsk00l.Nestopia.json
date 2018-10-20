@@ -41,8 +41,8 @@
             "name": "nestopia",
             "cleanup": [ "/share/doc" ],
             "config-opts": [
-              "--enable-gui",
-              "--with-ao"
+                "--enable-gui",
+                "--with-ao"
             ],
             "post-install": [
                 "install -Dm644 ca._0ldsk00l.Nestopia.appdata.xml /app/share/appdata/ca._0ldsk00l.Nestopia.appdata.xml"
@@ -54,8 +54,8 @@
                     "sha256": "c5a8b5e74a904c4e624152f8dfa081bdd7991796a24439811fc518564aa04b55"
                 },
                 {
-                  "type": "patch",
-                  "path": "respect-xdg.patch"
+                    "type": "patch",
+                    "path": "respect-xdg.patch"
                 },
                 {
                     "type": "file",

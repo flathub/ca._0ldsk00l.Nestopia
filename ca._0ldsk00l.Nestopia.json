@@ -2,7 +2,7 @@
     "app-id": "ca._0ldsk00l.Nestopia",
     "runtime": "org.freedesktop.Platform",
     "sdk": "org.freedesktop.Sdk",
-    "runtime-version": "18.08",
+    "runtime-version": "20.08",
     "command": "nestopia",
     "rename-desktop-file": "nestopia.desktop",
     "rename-icon": "nestopia",

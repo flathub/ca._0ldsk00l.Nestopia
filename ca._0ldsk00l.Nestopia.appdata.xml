@@ -45,6 +45,9 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0</project_license>
   <url type="homepage">http://0ldsk00l.ca/nestopia/</url>
+  <screenshots>
+    <screenshot type="default">https://raw.githubusercontent.com/flathub/ca._0ldsk00l.Nestopia/281c656ad697a80333098e4923a0b3881782841d/app.png</screenshot>
+  </screenshots>
   <releases>
     <release date="2018-06-25"version="1.49.0"/>
   </releases>

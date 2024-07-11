@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application>
-  <id type="desktop">ca._0ldsk00l.Nestopia.desktop</id>
+<component type="desktop">
+  <id>ca._0ldsk00l.Nestopia.desktop</id>
   <name>Nestopia</name>
   <summary>A Nintendo Entertainment System emulator</summary>
+  <developer id="ca._0ldsk00l">
+    <name>0ldsk00l</name>
+  </developer>
   <description>
-    <p>Nestopia is a portable NES/Famicom emulator written in C++.</p>
-    <p>Nestopia UE (Undead Edition) is a fork of the original source code, with
+    <p>Nestopia is a portable NES/Famicom emulator written in C++.
+    Nestopia UE (Undead Edition) is a fork of the original source code, with
     enhancements from members of the emulation community. This includes
     support for new platforms, and bug fixes in the emulator core.</p>
   </description>
@@ -45,13 +48,16 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0</project_license>
   <url type="homepage">http://0ldsk00l.ca/nestopia/</url>
+  <launchable type="desktop-id">ca._0ldsk00l.Nestopia.desktop</launchable>
   <screenshots>
-    <screenshot type="default">https://raw.githubusercontent.com/flathub/ca._0ldsk00l.Nestopia/281c656ad697a80333098e4923a0b3881782841d/app.png</screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/flathub/ca._0ldsk00l.Nestopia/281c656ad697a80333098e4923a0b3881782841d/app.png</image>
+    </screenshot>
   </screenshots>
   <releases>
-    <release date="2021-08-26"version="1.51.1"/>
-    <release date="2021-05-20"version="1.51.0"/>
-    <release date="2020-01-03"version="1.50.0"/>
-    <release date="2018-06-25"version="1.49.0"/>
+    <release date="2021-08-26" version="1.51.1"/>
+    <release date="2021-05-20" version="1.51.0"/>
+    <release date="2020-01-03" version="1.50.0"/>
+    <release date="2018-06-25" version="1.49.0"/>
   </releases>
-</application>
+</component>

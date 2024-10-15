@@ -52,6 +52,7 @@
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/flathub/ca._0ldsk00l.Nestopia/281c656ad697a80333098e4923a0b3881782841d/app.png</image>
+      <caption>Image of the Emulator running</caption>
     </screenshot>
   </screenshots>
   <releases>

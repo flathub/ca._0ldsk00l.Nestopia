@@ -52,9 +52,11 @@
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/flathub/ca._0ldsk00l.Nestopia/281c656ad697a80333098e4923a0b3881782841d/app.png</image>
+      <caption>Image of the Emulator running</caption>
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2024-03-30" version="1.52.1"/>
     <release date="2021-08-26" version="1.51.1"/>
     <release date="2021-05-20" version="1.51.0"/>
     <release date="2020-01-03" version="1.50.0"/>

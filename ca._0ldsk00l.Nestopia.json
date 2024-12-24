@@ -2,7 +2,7 @@
   "app-id": "ca._0ldsk00l.Nestopia",
   "runtime": "org.freedesktop.Platform",
   "sdk": "org.freedesktop.Sdk",
-  "runtime-version": "23.08",
+  "runtime-version": "24.08",
   "command": "nestopia",
   "rename-desktop-file": "nestopia.desktop",
   "rename-icon": "nestopia",
@@ -65,8 +65,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/0ldsk00l/nestopia/archive/refs/tags/1.52.1.tar.gz",
-          "sha512": "600f539e64e71ae732073a9e6781c67e54bd37d3253cf48b77d433396516d6ecf3e519e0f19107aca9dd81b3802b3948d9d242c44956682c988d4630b090273e"
+          "url": "https://github.com/0ldsk00l/nestopia/archive/refs/tags/1.53.0.tar.gz",
+          "sha512": "675570025abfe7d58f2238d6b235c6f13f39641b30317f2289e5ab2afeb58ac85657b4b91de455d0da24d0158d2380613359df3daa9f5dc2c058d1949d87ef78"
         },
         {
           "type": "file",

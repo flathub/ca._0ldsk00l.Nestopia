@@ -9,7 +9,7 @@
   "copy-icon": true,
   "finish-args": [
     "--device=all",
-    "--socket=x11",
+    "--socket=fallback-x11",
     "--share=ipc",
     "--socket=wayland",
     "--socket=pulseaudio",

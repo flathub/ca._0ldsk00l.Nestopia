@@ -28,8 +28,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/fltk/fltk/releases/download/release-1.4.2/fltk-1.4.2-source.tar.gz",
-          "sha256": "abf51c65c73e08d470488b3fc834c943dc8cec16f7919165827f3403318a15ef"
+          "url": "https://github.com/fltk/fltk/releases/download/release-1.4.4/fltk-1.4.4-source.tar.gz",
+          "sha256": "94b464cce634182c8407adac1be5fc49678986ca93285699b444352af89b4efe"
         }
       ]
     },
@@ -48,8 +48,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/0ldsk00l/nestopia/archive/refs/tags/1.53.1.tar.gz",
-          "sha512": "607bad683e7b7a50444240b37a10ecf851114c3dcfb058ef5a18ff6ff7e4949afb32d6f6b9476ab55e6a61893a33337301575e717e9112ad0bef7205d0f83693"
+          "url": "https://github.com/0ldsk00l/nestopia/archive/refs/tags/1.53.2.tar.gz",
+          "sha512": "b6bc3b464e4b160830963a1ff7fd97603883f3c95bada6d0cf46f759cc6d9e18974110a1737ab55223b4f3b06c3272510d2137d493ed16796c4ed3b16edbd04f"
         },
         {
           "type": "file",

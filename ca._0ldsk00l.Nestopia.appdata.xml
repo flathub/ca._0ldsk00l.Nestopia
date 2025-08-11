@@ -60,23 +60,13 @@
       <description>
         <p>Shell:</p>
         <ul>
-          <li>Additions:</li>
-          <li>
-            <ul>
-              <li>FLTK: NSF player with visualizer</li>
-            </ul>
-          </li>
+          <li>FLTK: NSF player with visualizer</li>
         </ul>
         <p>Core:</p>
         <ul>
-          <li>Additions:</li>
-          <li>
-            <ul>
-              <li>New database entries for Castlevania Anniversary Collection releases</li>
-              <li>Support for Jaleco JF-22 boards with SRAM</li>
-              <li>Fix regression in PPU constructor when using blargg's NTSC filter</li>
-            </ul>
-          </li>
+          <li>New database entries for Castlevania Anniversary Collection releases</li>
+          <li>Support for Jaleco JF-22 boards with SRAM</li>
+          <li>Fix regression in PPU constructor when using blargg's NTSC filter</li>
         </ul>
       </description>
     </release>

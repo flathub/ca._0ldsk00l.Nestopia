@@ -56,7 +56,30 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release date="2025-08-09" version="1.53.2"/>
+    <release date="2025-08-09" version="1.53.2">
+      <description>
+        <p>Shell:<p>
+        <ul>
+          <li>Additions:</li>
+          <li>
+            <ul>
+              <li>FLTK: NSF player with visualizer</li>
+            </ul>
+          </li>
+        </ul>
+        <p>Core:<p>
+        <ul>
+          <li>Additions:</li>
+          <li>
+            <ul>
+              <li>New database entries for Castlevania Anniversary Collection releases</li>
+              <li>Support for Jaleco JF-22 boards with SRAM</li>
+              <li>Fix regression in PPU constructor when using blargg's NTSC filter</li>
+            </ul>
+          </li>
+        </ul>
+      </description>
+    </release>
     <release date="2025-03-23" version="1.53.1"/>
     <release date="2024-12-24" version="1.53.0"/>
     <release date="2024-03-30" version="1.52.1"/>

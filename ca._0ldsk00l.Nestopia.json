@@ -2,7 +2,7 @@
   "app-id": "ca._0ldsk00l.Nestopia",
   "runtime": "org.freedesktop.Platform",
   "sdk": "org.freedesktop.Sdk",
-  "runtime-version": "24.08",
+  "runtime-version": "25.08",
   "command": "nestopia",
   "rename-desktop-file": "nestopia.desktop",
   "rename-icon": "nestopia",
@@ -15,15 +15,18 @@
     "--socket=pulseaudio",
     "--filesystem=home:ro"
   ],
+  "cleanup": [
+    "/include",
+    "/share/doc",
+    "/share/man",
+    "*.a"
+  ],
   "modules": [
     {
       "name": "fltk",
       "buildsystem": "autotools",
       "cleanup": [
-        "/bin",
-        "/share/doc/fltk",
-        "/share/man",
-        "*.a"
+        "/bin"
       ],
       "sources": [
         {
@@ -35,15 +38,12 @@
     },
     {
       "name": "nestopia",
-      "cleanup": [
-        "/share/doc"
-      ],
       "config-opts": [
         "--enable-gui",
         "--with-ao"
       ],
       "post-install": [
-        "install -Dm644 ca._0ldsk00l.Nestopia.appdata.xml /app/share/appdata/ca._0ldsk00l.Nestopia.appdata.xml"
+        "install -Dm644 ca._0ldsk00l.Nestopia.appdata.xml -t /app/share/metainfo/"
       ],
       "sources": [
         {
